@@ -496,29 +496,24 @@ footer{
   height: 15vh;
   background-color: rgb(209, 207, 207) ;
   margin-top: 7vh;
+  width: 100%;
 }
 footer a{
   color: rgb(71, 71, 71);
   height: fit-content;
-  padding: 5px 13px;
+  padding: 5px 10px;
   border-radius: 10px;
-  width: 100%;
   /* font-size: 18px; */
 }
 footer div{
   margin: 0 10%;
   margin-top: 1.5rem;
-  width: 30%;
+  width: 40%;
   display: flex;
   justify-content: space-around;
 }
 footer a:hover{
   background: white;
-}
-#line{
-  width: 5em;
-  height: 10px;
-  background-color: black;
 }
 .scrollNav{
   background-color: #0c2340;
