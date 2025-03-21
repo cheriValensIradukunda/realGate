@@ -192,3 +192,55 @@ nav a{
   color: rgb(26, 26, 59);
   font-weight: normal;
 }
+.blueDiv{
+  background: #0c2340;
+  margin-top: 20vh;
+}
+.blueDiv .theOpportunity{
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  margin-bottom: 10vh;
+}
+.theOpportunity .imagePart{
+  width: 55%;
+}
+.theOpportunity div{
+  width: 40%;
+  /* margin-top: 20vh; */
+}
+.theOpportunity div img{
+  width: 100%;
+  margin-top: -1em;
+}
+.theOpportunity div h3{
+  color: rgb(189, 186, 186);
+  margin-bottom: 10px;
+}
+.theOpportunity div h2{
+  margin-bottom: 20px;
+  font-size: 40px;
+  font-family: 'Times New Roman', Times, serif;
+}
+.theOpportunity .secondChild{
+  margin: 10vh 5%;
+  position: relative;
+
+}
+.theOpportunity .secondChild div{
+  margin-top: 5vh;
+  transition: 0.5s;
+  width: 10em;
+  padding: 15px;
+  float: right;
+  margin-right: 2em;
+  border-radius: 10px;
+}
+.theOpportunity .secondChild div:hover{
+  background: rgba(0, 63, 236, 0.301);
+  font-size: 16.5px;
+  /* width: 10em; */
+}
+.theOpportunity .secondChild div polyline{
+  
+}
