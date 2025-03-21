@@ -230,8 +230,8 @@ nav a{
 .theOpportunity .secondChild div{
   margin-top: 5vh;
   transition: 0.5s;
-  width: 10em;
-  padding: 15px;
+  /* width: 10em; */
+  padding: 15px 10px;
   float: right;
   margin-right: 2em;
   border-radius: 10px;
@@ -241,6 +241,18 @@ nav a{
   font-size: 16.5px;
   /* width: 10em; */
 }
-.theOpportunity .secondChild div polyline{
+.theUniversityNews{
+  margin:25vh 2em;
   
+}
+.theUniversityNews h3{
+  color: rgb(139, 139, 139);
+  margin-bottom: 10px;
+}
+.theUniversityNews h2{
+  margin-bottom: 20px;
+  font-size: 40px;
+  color: rgb(26, 26, 59);
+  font-family: 'Times New Roman', Times, serif;
+
 }
