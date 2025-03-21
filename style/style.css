@@ -49,13 +49,16 @@ header .upper-list{
 .upper-list ul{
   display: flex;
 }
-
+.upper-list li:hover{
+  background: rgba(135, 207, 235, 0.199);
+}
 header ul{
   padding: 15px;
 }
 
 ul li{
-  padding: 10px;
+  border-radius: 10px;
+  padding: 10px 20px;
 }
 
 .log{
