@@ -443,3 +443,78 @@ nav a{
 .NotreDameInMotion .cards .card div:last-child p:last-child{
   margin-top: 3vh;
 }
+.bottomNav{
+  height: 20vh;
+  background: #0c2340;
+  position: relative;
+}
+.bottomNav ul{
+  display: flex;
+  justify-content: center;
+  padding: 3rem;
+}
+.bottomNav ul li{
+  list-style-type: none;
+  padding:6px 10px 8px 10px;
+  border-radius: 5px;
+
+}
+.bottomNav ul li:hover{
+  background: rgba(135, 207, 235, 0.295);
+}
+.topBottoFooter{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 2em;
+}
+.topBottoFooter img{
+  width: 200px;
+  height: auto;
+}
+.topBottoFooter .platform{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  font-size: 22px;
+}
+.topBottoFooter .platform p{
+  margin-right: 15px;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 10px;
+  color: rgb(109, 109, 109);
+}
+
+.topBottoFooter .platform p:hover{
+  background: rgba(108, 146, 216, 0.349);
+}
+footer{
+  display: flex;
+  justify-content: space-between;
+  height: 15vh;
+  background-color: rgb(209, 207, 207) ;
+  margin-top: 7vh;
+}
+footer a{
+  color: rgb(71, 71, 71);
+  height: fit-content;
+  padding: 5px 13px;
+  border-radius: 10px;
+  /* font-size: 18px; */
+}
+footer div{
+  margin: 0 10%;
+  margin-top: 1.5rem;
+  width: 30%;
+  display: flex;
+  justify-content: space-around;
+}
+footer a:hover{
+  background: white;
+}
+#line{
+  width: 5em;
+  height: 10px;
+  background-color: black;
+}
+
+
