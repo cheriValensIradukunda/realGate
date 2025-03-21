@@ -67,7 +67,7 @@ ul li{
 }
 
 .log img{
-  width: 80%;
+  width: 100%;
 }
 
 nav{
@@ -499,6 +499,7 @@ footer a{
   height: fit-content;
   padding: 5px 13px;
   border-radius: 10px;
+  width: 100%;
   /* font-size: 18px; */
 }
 footer div{
@@ -515,6 +516,36 @@ footer a:hover{
   width: 5em;
   height: 10px;
   background-color: black;
+}
+.scrollNav{
+  background-color: #0c2340;
+  height: 4em;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  overflow: hidden;
+}
+.scrollNav div{
+  display: flex;
+  width: 62%;
+  justify-content: space-between;
+  float: right;
+  margin-right: 10%;
+}
+.scrollNav li{
+  list-style-type: none;
+  padding: 1.3rem 25px;
+}
+.scrollNav li a{
+  color: white;
+  /* font-size: 17px; */
+  height: auto;
+}
+.scrollNav li:hover{
+  background: rgba(135, 207, 235, 0.199);
+}
+.scrollNav li:first-child{
+  background: rgba(135, 207, 235, 0.199);
 }
 
 
