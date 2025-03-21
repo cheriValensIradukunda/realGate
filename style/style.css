@@ -142,3 +142,53 @@ nav a{
 .img img{
   width: 100%;
 }
+.womeWhoInspire{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3em;
+  font-family: 'Times New Roman', Times, serif;
+}
+.womeWhoInspire .leftPart{
+  width: 40%;
+  transition: 0.5s;
+}
+/* . */
+.womeWhoInspire .leftPart img{
+  width: 100%;
+}
+.womeWhoInspire .leftPart h2{
+  font-size: 30px;
+  color: rgb(26, 26, 59);
+  font-weight: normal;
+}
+.womeWhoInspire .leftPart div{
+  margin: 1em 2em;
+}
+.womeWhoInspire .rightPart{
+  width: 50%;
+}
+.womeWhoInspire .rightPart div:hover{
+  background-color: #b9cce0;
+  box-shadow: 2px 0px 5px black;
+  transform: scale(1.02);
+}
+.womeWhoInspire .leftPart:hover{
+  background-color: #b9cce0;
+  box-shadow: 2px 0px 5px black;
+  transform: scale(1.01);
+}
+.womeWhoInspire .rightPart div{
+  margin: 4em 0px;
+  width: 90%;
+  padding: 10px;
+  transition: 0.2s;
+}
+.womeWhoInspire  h4{
+  color: rgb(97, 97, 97);
+  font-weight: normal;
+}
+.womeWhoInspire .rightPart div h3{
+  font-size: 30px;
+  color: rgb(26, 26, 59);
+  font-weight: normal;
+}
