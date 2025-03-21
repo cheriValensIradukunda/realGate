@@ -254,5 +254,45 @@ nav a{
   font-size: 40px;
   color: rgb(26, 26, 59);
   font-family: 'Times New Roman', Times, serif;
+}
 
+.theUniversityNews button{
+  border: none;
+  padding: 10px;
+  background-color: transparent;
+  cursor: pointer;
+  transition: 1s;
+  font-size: 17px;
+}
+.theUniversityNews button:hover{
+  background-color: rgba(135, 207, 235, 0.384);
+  transform: scale(1.2);
+}
+.firstPart {
+  position: relative;
+  width: 100%;
+}
+.firstPart .imagePart{
+  position: absolute;
+  width: 50%;
+  top: 8vh;
+}
+.firstPart .imagePart img{
+  width: 100%;
+}
+.firstPart .contentPart {
+  position: absolute;
+  width: 70%;
+  right: 0;
+  background-color: rgb(235, 235, 235);
+  z-index: -1;
+  height: 70vh;
+}
+.firstPart .contentPart div{
+  width: 65%;
+  margin-left: 35%;
+  margin-top: 25vh;
+}
+.centerAndInstitute{
+  
 }
